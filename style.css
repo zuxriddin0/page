@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 46px 176px 97px 188px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo a {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    color: #272D38;
+    text-transform: uppercase;
+}
+
+.nav .links {
+    display: flex;
+    gap: 50px;
+}
+
+.links a {
+    color: #272D38;
+    font-weight: 400;
+    line-height: 27.5px;
+    transition: all .3s ease;
+}
+
+.links a:hover , .footer a:hover {
+    color: #8EADD5;
+}
+
+
+
+.hero_section {
+    padding: 0 187px 157px 188px;
+    display: flex;
+    position: relative;
+}
+
+.hero_title {
+    padding-top: 42px;
+}
+
+
+.hero_title h1 {
+    width: 670px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #272D38;
+    text-transform: uppercase;
+}
+
+.hero_title p {
+    width: 500px;
+    color: #272D38;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.5px;
+    color: #272D38;
+    text-transform: capitalize;
+    padding: 24px 0 34px 0;
+}
+
+.hero_btn {
+    padding: 10px 31px;
+    background: #8EADD5;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.hero_btn:hover {
+    background: #fff;
+    color: #8EADD5;
+    border: 1px solid #8EADD5;
+}
+
+.around {
+    width: 757px;
+    height: 679px;
+    background: #8EADD5;
+    border-radius: 50%;
+    position: absolute;
+    top: -338px;
+    left: -18px;
+    filter: blur(306px);
+    z-index: -1;
+}
+
+.logo_container {
+    text-align: center;
+    padding: 0 262px 136px 263px;
+}
+
+.logo_container span {
+    font-size: 16px;
+    font-weight: 300;
+    color: #667085;
+    text-transform: capitalize;
+
+}
+
+.logos {
+    width: 915px;
+    height: 86px;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 16px;
+    background: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.brand_container {
+    display: flex;
+    flex-direction: column;
+    gap: 136px;
+}
+
+.brand_section {
+    padding: 0 187px 0px 188px;
+    display: flex;
+    gap: 179px;
+}
+
+.brand_title {
+    padding-top: 97px;
+}
+
+.brand_title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #272D38;
+    text-transform: capitalize;
+
+}
+
+.brand_title p {
+    width: 380px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #272D38;
+    padding-bottom: 45px;
+    padding-top: 25px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.brand_title button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.brand_title button i {
+    font-size: 32px;
+}
+
+.testimonals_container {
+    padding: 136px 187px 136px 188px;
+}
+
+.testimonal_title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.testimonal_title h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #272D38;
+}
+
+.testimonal_title h2 {
+    font-size: 48px;
+    width: 400px;
+    padding-top: 16px;
+    color: #272D38;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.testimonal_card {
+    display: flex;
+    gap: 15px;
+    margin-top: 38px;
+}
+
+.card {
+    width: 345px;
+    width: 334px;
+    padding: 32px;
+    background: #F6F6F6;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+.person_name img {
+    width: 129px;
+}
+
+.person_name {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.person_name span {
+    padding: 8px 0 27px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #272D38;
+}
+
+.card p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #272D38;
+    text-transform: capitalize;
+}
+
+.contact_container {
+    padding: 0 187px 138px 188px;
+
+}
+
+.contacts {
+    width: 1065px;
+    height: 450px;
+    padding: 0 89px 0 75px;
+    display: flex;
+    gap: 90px;
+    background: #F6F6F6;
+}
+
+.contact_title {
+    padding: 100px 0;
+}
+
+.contact_title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #272D38;
+}
+
+.contact_title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 16px 0 32px 0;
+    color: #272D38;
+
+}
+
+
+.footer {
+    height: 443px;
+    background: #F6F6F6;
+    padding: 105px 183px 18px 183px;
+  
+}
+
+
+ .footer_title {
+    display: flex;
+    gap: 178px;
+ }
+.footer_logo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer_logo a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #272D38;
+
+}
+.footer_logo span {
+    width: 189px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #272D38;
+
+}
+
+.resources, .company, .socials {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.socials_link, .resources_link, .company_link {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.footer a {
+    color: #272D38;
+    font-size: 16px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+ .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+ }
+.copyright p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #272D38;
+
+}
+
+/*  Responsive  */  
+
+
+
+@media screen and (max-width: 430px)  {
+.nav .links a {
+    display: none;
+}
+}
+
